@@ -105,12 +105,14 @@ body {
 	margin: 0 15px;
 }
 .btnSearch, .btnUser {
+    background: none;
+    height: 35px;
+    width: none;
+    cursor: pointer;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin: 10px;
-	background: none;
-	height: 35px;
 }
 #search, #user {
 	height:25px;
